@@ -1,4 +1,7 @@
 
+library(data.table)
+library(reshape2)
+
 # downloaded and unzipped data to r wd()
 # 2 folders of interest 'test'/'train'
 # 3 files in each folder 'subject_..', 'y_..', 'X_..'
@@ -9,8 +12,6 @@
 
 #read paired files from each folder and concatenate
 #subjects
-library(data.table)
-library(reshape2)
 subjectTrainIn <- read.table("UCI HAR Dataset/train/subject_train.txt")
 subjectTestIn <- read.table("UCI HAR Dataset/test/subject_test.txt")
 subjects <- rbind(subjectTrainIn,subjectTestIn)
@@ -29,7 +30,7 @@ measurements <- rbind(measurementsTrainIn,measurementsTestIn)
 
 #measurement names are in the features.txt file
 measurementNames <- read.table("UCI HAR Dataset/features.txt")
-#I couldn't figure out how to use setnames on a dt with wildcards
+#set measurement column names to be the name of the associated feature instead of generic V1-V561
 names(measurements) <- measurementNames$V2
 
 # merge on columns to bring all datasets together
@@ -44,7 +45,6 @@ getMeanStd <- grepl("mean\\(\\)", names(complete)) |
   grepl("action", names(complete))
 
 #I kept loosing subjNum and Actitivity during merge so, I'm specifying that they stay in the getMeanStd
-#| grepl("subjNumber",names(complete)) | grepl("action",names(complete))
 #There's probably a better way to do this
 
 #Subset based on getMeanStd,get only cols with mean/std
@@ -54,7 +54,6 @@ complete <- complete[,getMeanStd]
 # Treats as nominal variables. Change 1-->Walking, 2-->Walking Upstairs, etc
 complete$action <- factor(complete$action, labels=c("Walking",
                                                         "Walking Upstairs", "Walking Downstairs", "Sitting", "Standing", "Laying"))
-#MAYBE IT MAKES SENSE TO DO THIS EARLIER IN SCRIPT?
 
 # Final Step, Create new tidy set with only avgs
 # melt() defaults all columns with numeric values to being called "variables" with "values". Make var-name descriptive
