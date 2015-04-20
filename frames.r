@@ -10,6 +10,7 @@
 #read paired files from each folder and concatenate
 #subjects
 library(data.table)
+library(reshape2)
 subjectTrainIn <- read.table("UCI HAR Dataset/train/subject_train.txt")
 subjectTestIn <- read.table("UCI HAR Dataset/test/subject_test.txt")
 subjects <- rbind(subjectTrainIn,subjectTestIn)
@@ -56,6 +57,13 @@ complete$action <- factor(complete$action, labels=c("Walking",
 #MAYBE IT MAKES SENSE TO DO THIS EARLIER IN SCRIPT?
 
 # Final Step, Create new tidy set with only avgs
-molten <- melt(complete, id.vars=c("subjNum","action"))
+# melt() defaults all columns with numeric values to being called "variables" with "values". Make var-name descriptive
+molten <- melt(complete, id.vars=c("subjNum","action"),
+               variable.name = "feature")
 
+tidy <- dcast(molten, subjNum + action ~ feature, mean)
 
+#write to Long form tidy data
+write.csv(molten, "longTidy.csv", row.names=FALSE)
+#write to Wide form tidy data
+write.csv(tidy, "wideTidy.csv", row.names=FALSE)
