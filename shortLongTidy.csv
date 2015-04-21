@@ -1,0 +1,251 @@
+"subjNum","action","variable","value"
+1,"Walking","tBodyAcc-mean()-X",0.277330758736842
+1,"Walking Upstairs","tBodyAcc-mean()-X",0.255461689622641
+1,"Walking Downstairs","tBodyAcc-mean()-X",0.289188320408163
+1,"Sitting","tBodyAcc-mean()-X",0.261237565425532
+1,"Standing","tBodyAcc-mean()-X",0.278917629056604
+1,"Laying","tBodyAcc-mean()-X",0.22159824394
+2,"Walking","tBodyAcc-mean()-X",0.276426586440678
+2,"Walking Upstairs","tBodyAcc-mean()-X",0.247164790395833
+2,"Walking Downstairs","tBodyAcc-mean()-X",0.27761534806383
+2,"Sitting","tBodyAcc-mean()-X",0.27708735173913
+2,"Standing","tBodyAcc-mean()-X",0.277911472222222
+2,"Laying","tBodyAcc-mean()-X",0.281373403958333
+3,"Walking","tBodyAcc-mean()-X",0.275567462068966
+3,"Walking Upstairs","tBodyAcc-mean()-X",0.260819873067797
+3,"Walking Downstairs","tBodyAcc-mean()-X",0.292423484693878
+3,"Sitting","tBodyAcc-mean()-X",0.257197599134615
+3,"Standing","tBodyAcc-mean()-X",0.280046513278689
+3,"Laying","tBodyAcc-mean()-X",0.275516852741935
+4,"Walking","tBodyAcc-mean()-X",0.278582015166667
+4,"Walking Upstairs","tBodyAcc-mean()-X",0.270876696730769
+4,"Walking Downstairs","tBodyAcc-mean()-X",0.279965329555556
+4,"Sitting","tBodyAcc-mean()-X",0.27153827992
+4,"Standing","tBodyAcc-mean()-X",0.280499745892857
+4,"Laying","tBodyAcc-mean()-X",0.263559214981481
+5,"Walking","tBodyAcc-mean()-X",0.27784234625
+5,"Walking Upstairs","tBodyAcc-mean()-X",0.268459469914894
+5,"Walking Downstairs","tBodyAcc-mean()-X",0.29354392712766
+5,"Sitting","tBodyAcc-mean()-X",0.273694139545455
+5,"Standing","tBodyAcc-mean()-X",0.282544390892857
+5,"Laying","tBodyAcc-mean()-X",0.278334325576923
+6,"Walking","tBodyAcc-mean()-X",0.283658868070175
+6,"Walking Upstairs","tBodyAcc-mean()-X",0.268229355098039
+6,"Walking Downstairs","tBodyAcc-mean()-X",0.277045258145833
+6,"Sitting","tBodyAcc-mean()-X",0.276778487454545
+6,"Standing","tBodyAcc-mean()-X",0.280346248596491
+6,"Laying","tBodyAcc-mean()-X",0.248656520140351
+7,"Walking","tBodyAcc-mean()-X",0.275592961754386
+7,"Walking Upstairs","tBodyAcc-mean()-X",0.248706923078431
+7,"Walking Downstairs","tBodyAcc-mean()-X",0.28030708
+7,"Sitting","tBodyAcc-mean()-X",0.284674637291667
+7,"Standing","tBodyAcc-mean()-X",0.282723539433962
+7,"Laying","tBodyAcc-mean()-X",0.250176694038462
+8,"Walking","tBodyAcc-mean()-X",0.27468631
+8,"Walking Upstairs","tBodyAcc-mean()-X",0.258880152048781
+8,"Walking Downstairs","tBodyAcc-mean()-X",0.283484089210526
+8,"Sitting","tBodyAcc-mean()-X",0.267491472934783
+8,"Standing","tBodyAcc-mean()-X",0.279620986111111
+8,"Laying","tBodyAcc-mean()-X",0.261254282907407
+9,"Walking","tBodyAcc-mean()-X",0.278502842115385
+9,"Walking Upstairs","tBodyAcc-mean()-X",0.262436475714286
+9,"Walking Downstairs","tBodyAcc-mean()-X",0.295923445
+9,"Sitting","tBodyAcc-mean()-X",0.24832674354
+9,"Standing","tBodyAcc-mean()-X",0.282310057333333
+9,"Laying","tBodyAcc-mean()-X",0.2591955368
+10,"Walking","tBodyAcc-mean()-X",0.278574076603774
+10,"Walking Upstairs","tBodyAcc-mean()-X",0.267121853404255
+10,"Walking Downstairs","tBodyAcc-mean()-X",0.290401594315789
+10,"Sitting","tBodyAcc-mean()-X",0.270612056481481
+10,"Standing","tBodyAcc-mean()-X",0.276650300681818
+10,"Laying","tBodyAcc-mean()-X",0.280230574137931
+11,"Walking","tBodyAcc-mean()-X",0.271821892881356
+11,"Walking Upstairs","tBodyAcc-mean()-X",0.263775859277778
+11,"Walking Downstairs","tBodyAcc-mean()-X",0.291605631956522
+11,"Sitting","tBodyAcc-mean()-X",0.276590197358491
+11,"Standing","tBodyAcc-mean()-X",0.277715562765957
+11,"Laying","tBodyAcc-mean()-X",0.280592970877193
+12,"Walking","tBodyAcc-mean()-X",0.2771286656
+12,"Walking Upstairs","tBodyAcc-mean()-X",0.272970338653846
+12,"Walking Downstairs","tBodyAcc-mean()-X",0.281521097391304
+12,"Sitting","tBodyAcc-mean()-X",0.275007224901961
+12,"Standing","tBodyAcc-mean()-X",0.277405834918033
+12,"Laying","tBodyAcc-mean()-X",0.260113433
+13,"Walking","tBodyAcc-mean()-X",0.275883130350877
+13,"Walking Upstairs","tBodyAcc-mean()-X",0.258203939581818
+13,"Walking Downstairs","tBodyAcc-mean()-X",0.294907553404255
+13,"Sitting","tBodyAcc-mean()-X",0.274328499591837
+13,"Standing","tBodyAcc-mean()-X",0.277758431052632
+13,"Laying","tBodyAcc-mean()-X",0.276716360483871
+14,"Walking","tBodyAcc-mean()-X",0.271959598644068
+14,"Walking Upstairs","tBodyAcc-mean()-X",0.26242106612963
+14,"Walking Downstairs","tBodyAcc-mean()-X",0.293422115555556
+14,"Sitting","tBodyAcc-mean()-X",0.279990577037037
+14,"Standing","tBodyAcc-mean()-X",0.280545613833333
+14,"Laying","tBodyAcc-mean()-X",0.233275439803922
+15,"Walking","tBodyAcc-mean()-X",0.273899207962963
+15,"Walking Upstairs","tBodyAcc-mean()-X",0.270187595833333
+15,"Walking Downstairs","tBodyAcc-mean()-X",0.280198851190476
+15,"Sitting","tBodyAcc-mean()-X",0.27290337979661
+15,"Standing","tBodyAcc-mean()-X",0.278915803962264
+15,"Laying","tBodyAcc-mean()-X",0.2894756525
+16,"Walking","tBodyAcc-mean()-X",0.276023564509804
+16,"Walking Upstairs","tBodyAcc-mean()-X",0.255986102627451
+16,"Walking Downstairs","tBodyAcc-mean()-X",0.295586802191489
+16,"Sitting","tBodyAcc-mean()-X",0.280768574492754
+16,"Standing","tBodyAcc-mean()-X",0.283497402948718
+16,"Laying","tBodyAcc-mean()-X",0.274227162571429
+17,"Walking","tBodyAcc-mean()-X",0.272341855245902
+17,"Walking Upstairs","tBodyAcc-mean()-X",0.252604768583333
+17,"Walking Downstairs","tBodyAcc-mean()-X",0.29391828326087
+17,"Sitting","tBodyAcc-mean()-X",0.2773570196875
+17,"Standing","tBodyAcc-mean()-X",0.277942503333333
+17,"Laying","tBodyAcc-mean()-X",0.269780085577465
+18,"Walking","tBodyAcc-mean()-X",0.273887758571429
+18,"Walking Upstairs","tBodyAcc-mean()-X",0.265401201896552
+18,"Walking Downstairs","tBodyAcc-mean()-X",0.288439468909091
+18,"Sitting","tBodyAcc-mean()-X",0.27727001877193
+18,"Standing","tBodyAcc-mean()-X",0.278458805890411
+18,"Laying","tBodyAcc-mean()-X",0.274691576923077
+19,"Walking","tBodyAcc-mean()-X",0.273931172307692
+19,"Walking Upstairs","tBodyAcc-mean()-X",0.242118808925
+19,"Walking Downstairs","tBodyAcc-mean()-X",0.262688053871795
+19,"Sitting","tBodyAcc-mean()-X",0.273830316164384
+19,"Standing","tBodyAcc-mean()-X",0.27817226
+19,"Laying","tBodyAcc-mean()-X",0.272653733493976
+20,"Walking","tBodyAcc-mean()-X",0.272589336470588
+20,"Walking Upstairs","tBodyAcc-mean()-X",0.252098317156863
+20,"Walking Downstairs","tBodyAcc-mean()-X",0.296144421355556
+20,"Sitting","tBodyAcc-mean()-X",0.278045439090909
+20,"Standing","tBodyAcc-mean()-X",0.278076904657534
+20,"Laying","tBodyAcc-mean()-X",0.239507882205882
+21,"Walking","tBodyAcc-mean()-X",0.279183526730769
+21,"Walking Upstairs","tBodyAcc-mean()-X",0.265194544680851
+21,"Walking Downstairs","tBodyAcc-mean()-X",0.3014610196
+21,"Sitting","tBodyAcc-mean()-X",0.277539616823529
+21,"Standing","tBodyAcc-mean()-X",0.27695224258427
+21,"Laying","tBodyAcc-mean()-X",0.271325472455556
+22,"Walking","tBodyAcc-mean()-X",0.27886459
+22,"Walking Upstairs","tBodyAcc-mean()-X",0.248391534566667
+22,"Walking Downstairs","tBodyAcc-mean()-X",0.284458963861111
+22,"Sitting","tBodyAcc-mean()-X",0.273583822709677
+22,"Standing","tBodyAcc-mean()-X",0.279053861587302
+22,"Laying","tBodyAcc-mean()-X",0.279959721194444
+23,"Walking","tBodyAcc-mean()-X",0.273211884237288
+23,"Walking Upstairs","tBodyAcc-mean()-X",0.249995171031373
+23,"Walking Downstairs","tBodyAcc-mean()-X",0.289897411148148
+23,"Sitting","tBodyAcc-mean()-X",0.273351251617647
+23,"Standing","tBodyAcc-mean()-X",0.277899323235294
+23,"Laying","tBodyAcc-mean()-X",0.274038007986111
+24,"Walking","tBodyAcc-mean()-X",0.276980816034483
+24,"Walking Upstairs","tBodyAcc-mean()-X",0.269881106779661
+24,"Walking Downstairs","tBodyAcc-mean()-X",0.288631208909091
+24,"Sitting","tBodyAcc-mean()-X",0.273475690147059
+24,"Standing","tBodyAcc-mean()-X",0.280348883913043
+24,"Laying","tBodyAcc-mean()-X",0.272850494930556
+25,"Walking","tBodyAcc-mean()-X",0.278992759054054
+25,"Walking Upstairs","tBodyAcc-mean()-X",0.277995411384615
+25,"Walking Downstairs","tBodyAcc-mean()-X",0.291329666206897
+25,"Sitting","tBodyAcc-mean()-X",0.278541482461538
+25,"Standing","tBodyAcc-mean()-X",0.278013701621622
+25,"Laying","tBodyAcc-mean()-X",0.250791828613699
+26,"Walking","tBodyAcc-mean()-X",0.279264443728814
+26,"Walking Upstairs","tBodyAcc-mean()-X",0.272691394545455
+26,"Walking Downstairs","tBodyAcc-mean()-X",0.2792845828
+26,"Sitting","tBodyAcc-mean()-X",0.258243530166667
+26,"Standing","tBodyAcc-mean()-X",0.281127035405405
+26,"Laying","tBodyAcc-mean()-X",0.271645864540789
+27,"Walking","tBodyAcc-mean()-X",0.276849485438596
+27,"Walking Upstairs","tBodyAcc-mean()-X",0.265770253921569
+27,"Walking Downstairs","tBodyAcc-mean()-X",0.2975441875
+27,"Sitting","tBodyAcc-mean()-X",0.273941302571429
+27,"Standing","tBodyAcc-mean()-X",0.279566921625
+27,"Laying","tBodyAcc-mean()-X",0.274102492432432
+28,"Walking","tBodyAcc-mean()-X",0.281228223888889
+28,"Walking Upstairs","tBodyAcc-mean()-X",0.262005841764706
+28,"Walking Downstairs","tBodyAcc-mean()-X",0.293642076521739
+28,"Sitting","tBodyAcc-mean()-X",0.276977629444444
+28,"Standing","tBodyAcc-mean()-X",0.277795069113924
+28,"Laying","tBodyAcc-mean()-X",0.2759134825
+29,"Walking","tBodyAcc-mean()-X",0.271999916792453
+29,"Walking Upstairs","tBodyAcc-mean()-X",0.265423066877551
+29,"Walking Downstairs","tBodyAcc-mean()-X",0.293140441083333
+29,"Sitting","tBodyAcc-mean()-X",0.2771799775
+29,"Standing","tBodyAcc-mean()-X",0.277965065846154
+29,"Laying","tBodyAcc-mean()-X",0.287295196811594
+30,"Walking","tBodyAcc-mean()-X",0.276406758
+30,"Walking Upstairs","tBodyAcc-mean()-X",0.271415642261538
+30,"Walking Downstairs","tBodyAcc-mean()-X",0.283190646967742
+30,"Sitting","tBodyAcc-mean()-X",0.268336081379032
+30,"Standing","tBodyAcc-mean()-X",0.277112699152542
+30,"Laying","tBodyAcc-mean()-X",0.281033900571429
+1,"Walking","tBodyAcc-mean()-Y",-0.0173838185273684
+1,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0239531492643396
+1,"Walking Downstairs","tBodyAcc-mean()-Y",-0.00991850461020408
+1,"Sitting","tBodyAcc-mean()-Y",-0.00130828765170213
+1,"Standing","tBodyAcc-mean()-Y",-0.0161375901037736
+1,"Laying","tBodyAcc-mean()-Y",-0.0405139534294
+2,"Walking","tBodyAcc-mean()-Y",-0.0185949199145763
+2,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0214121132045833
+2,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0226614158361702
+2,"Sitting","tBodyAcc-mean()-Y",-0.0156879937282609
+2,"Standing","tBodyAcc-mean()-Y",-0.0184208270166667
+2,"Laying","tBodyAcc-mean()-Y",-0.0181587397583333
+3,"Walking","tBodyAcc-mean()-Y",-0.0171767844203448
+3,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0324109410555932
+3,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0193554079328571
+3,"Sitting","tBodyAcc-mean()-Y",-0.00350299841730769
+3,"Standing","tBodyAcc-mean()-Y",-0.0143376555065574
+3,"Laying","tBodyAcc-mean()-Y",-0.0189556785048387
+4,"Walking","tBodyAcc-mean()-Y",-0.0148399475341667
+4,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0319804295729615
+4,"Walking Downstairs","tBodyAcc-mean()-Y",-0.00980200850666667
+4,"Sitting","tBodyAcc-mean()-Y",-0.007163065158
+4,"Standing","tBodyAcc-mean()-Y",-0.00948911098553571
+4,"Laying","tBodyAcc-mean()-Y",-0.0150031841055556
+5,"Walking","tBodyAcc-mean()-Y",-0.0172850317482679
+5,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0325269755153191
+5,"Walking Downstairs","tBodyAcc-mean()-Y",-0.00850107533191489
+5,"Sitting","tBodyAcc-mean()-Y",-0.00990083527045455
+5,"Standing","tBodyAcc-mean()-Y",-0.00700418554517857
+5,"Laying","tBodyAcc-mean()-Y",-0.0183042123269231
+6,"Walking","tBodyAcc-mean()-Y",-0.0168954189082456
+6,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0272425385070588
+6,"Walking Downstairs","tBodyAcc-mean()-Y",-0.019536840063125
+6,"Sitting","tBodyAcc-mean()-Y",-0.0145911615290909
+6,"Standing","tBodyAcc-mean()-Y",-0.0181236327175439
+6,"Laying","tBodyAcc-mean()-Y",-0.0102529170561404
+7,"Walking","tBodyAcc-mean()-Y",-0.018653665345614
+7,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0275639005607843
+7,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0166332372978723
+7,"Sitting","tBodyAcc-mean()-Y",-0.01461097580375
+7,"Standing","tBodyAcc-mean()-Y",-0.0145740341037736
+7,"Laying","tBodyAcc-mean()-Y",-0.0204411516884615
+8,"Walking","tBodyAcc-mean()-Y",-0.0186628865310417
+8,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0282415136341463
+8,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0211058674973684
+8,"Sitting","tBodyAcc-mean()-Y",-0.00672550621304348
+8,"Standing","tBodyAcc-mean()-Y",-0.0148113067148148
+8,"Laying","tBodyAcc-mean()-Y",-0.0212281733881481
+9,"Walking","tBodyAcc-mean()-Y",-0.0180891971284423
+9,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0195101099975714
+9,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0203994269075476
+9,"Sitting","tBodyAcc-mean()-Y",-0.02701677698
+9,"Standing","tBodyAcc-mean()-Y",-0.0200454954022222
+9,"Laying","tBodyAcc-mean()-Y",-0.020526821662
+10,"Walking","tBodyAcc-mean()-Y",-0.017022351190566
+10,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0143854920340426
+10,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0200050770710526
+10,"Sitting","tBodyAcc-mean()-Y",-0.015042681852037
+10,"Standing","tBodyAcc-mean()-Y",-0.0155418603409091
+10,"Laying","tBodyAcc-mean()-Y",-0.024294484137931
+11,"Walking","tBodyAcc-mean()-Y",-0.0166475833623729
+11,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0303157822055556
+11,"Walking Downstairs","tBodyAcc-mean()-Y",-0.0178097721219565
+11,"Sitting","tBodyAcc-mean()-Y",-0.0149195616754717
+11,"Standing","tBodyAcc-mean()-Y",-0.0171990886595745
+11,"Laying","tBodyAcc-mean()-Y",-0.0176598052315789
+12,"Walking","tBodyAcc-mean()-Y",-0.015560927606
+12,"Walking Upstairs","tBodyAcc-mean()-Y",-0.0263574903403846
+12,"Walking Downstairs","tBodyAcc-mean()-Y",-0.018084266865793
+12,"Sitting","tBodyAcc-mean()-Y",-0.0157892988523529
