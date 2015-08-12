@@ -1,6 +1,7 @@
 
 library(caret)
 library(randomForest)
+library(dplyr)
 
 setwd("/Users/bnorgeot/datasciencecoursera/titanic")
 
@@ -112,11 +113,32 @@ c5 <- confusionMatrix(predGLMNET, validSet$Survived)$overall[1]
 c6 <- confusionMatrix(predSVM, validSet$Survived)$overall[1]
 c7 <- confusionMatrix(predComb2, validSet$Survived)$overall[1]
 print(paste(c1, c2, c3, c4, c5, c6, c7))
-# Accuracy for comb2 was LOWER than comb1, overfitting?
+# Accuracy for comb2 was LOWER than comb1, overfitting or does gbm perform worse than rf for this task?
+# This print/paste shit is lame, create a proper table
 
 # Does combining in an RF change anything? YES
 combModFit3 <- train(Survived ~.,method="rf",data=predDF2, trControl = myControl)
 predComb3 <- predict(combModFit3,validSet)
-c8 <- confusionMatrix(predComb3, validSet$Survived)$overall[1] #.831
+c8 <- confusionMatrix(predComb3, validSet$Survived)$overall[1] #.831 Got and extra percent!
 
-# Change testSet$Survived to factor!!
+
+
+# Change testSet$Survived to factor!! Way to go retartd! testSet is unlabeled
+
+#HERE. STUCK. CAN'T PREDICT ON TESTSET!!!!
+#Make new predictions on the unlabeled testSet and submit to Kaggle
+testSet$Survived <- predict(combModFit3, newdata = testSet) 
+## Error in `$<-.data.frame`(`*tmp*`, "Survived", value = structure(c(1L, : replacement has 417 rows, data has 418
+#Uh, oh! There is an error here! When you get this type of error in R, it means that you are trying to assign a vector 
+#of one length to a vector of a different length, so the two vectors don't line up. We have to find the missing data ourself
+summary(testSet) #The variable Fare has 1 NA
+#replace w/ifelse:  
+# if an entry in the column “Fare” is NA, then replace it with the mean of the column (also removing the NA's when you take the mean). Otherwise, leave it the same.
+testSet$Fare <- ifelse(is.na(testSet$Fare), mean(testSet$Fare, na.rm= TRUE), testSet$Fare)
+#Now try training the model again
+testSet$Survived <- predict(model, newdata = testSet)
+
+# TRY THIS AS SUBMISSION
+submission2 <- testSet %>% select(PassengerId,Survived)
+#write resulting predictions w/only the two columns to csv
+write.table(submission,file = "submission3.csv", col.names = TRUE, row.names = FALSE, sep = ",")
