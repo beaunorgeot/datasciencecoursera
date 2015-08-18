@@ -1,0 +1,51 @@
+
+setwd("/Users/bnorgeot/datasciencecoursera/titanic")
+
+#Features: Survived ~ Pclass + Sex + Fare + SibSp + Embarked + Parch
+library(shiny)
+
+shinyUI(fluidPage(
+  titlePanel("Predicting TITANIC Survival"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      helpText("Select information about passengers to predict whether they would survive the Titanic disaster."),
+      
+      selectInput("Pclass", 
+                  label="Passenger class",
+                  choices=list("First"=1, "Second"=2, "Third"=3), selected=2),
+      
+      radioButtons("Sex",
+                   label = "Gender",
+                   choices = list("Male"="male","Female"="female"),
+                   selected = "male"),
+      
+      sliderInput("Fare", 
+                  label = "Cost of their ticket:",
+                  min = 0, max = 500, value = 15),
+      
+      numericInput("SibSp", 
+                   label = "How many siblings aboard (include spouses)", 
+                   value =0, min = 0, max = 8, step = 1),
+      
+      checkboxGroupInput("Embarked", 
+                         label = "Which port did they got on at?", 
+                         choices = list("Cherbourg"="C", "Queenstown"="Q", "Southhampton"="S"), selected="S"),
+      
+      numericInput("Parch", 
+                   label = "How many of this person's parents or children were aboard?", 
+                   value =0, min = 0, max = 6, step = 1)
+      
+  
+      
+    ),
+    
+    mainPanel(
+      h2("Prediction of Survival"),
+      "This passenger most likely",
+      textOutput("didHeSurvive", container=strong), " !",
+      br()
+    )
+    # I want a picture of Leo if the person dies, and a picture of that woman if the person lives
+  )
+))
