@@ -1,7 +1,12 @@
 
-setwd("/Users/bnorgeot/datasciencecoursera/titanic")
+#setwd("/Users/bnorgeot/datasciencecoursera/titanic")
 
 library(shiny)
+library(RcppEigen)
+library(e1071)
+library(caret)
+library(randomForest)
+library(shinyapps)
 source("simTitanic.R")
 
 # #Features: Survived ~ Pclass + Sex + Fare + SibSp + Embarked + Parch
