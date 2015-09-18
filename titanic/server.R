@@ -7,7 +7,7 @@ library(e1071)
 library(caret)
 library(randomForest)
 library(shinyapps)
-source("simTitanic.R")
+source("simTitanic.R") #this is the script used to build the model/generate the predictions
 
 # #Features: Survived ~ Pclass + Sex + Fare + SibSp + Embarked + Parch
 shinyServer(function(input, output) {
